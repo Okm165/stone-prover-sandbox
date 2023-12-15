@@ -1,4 +1,4 @@
-cairo-compile fibonacci.cairo --output fibonacci_compiled.json --proof_mode
+cairo-compile fibonacci_starknet_with_keccak.cairo --output fibonacci_compiled.json --proof_mode
 
 cairo-run \
     --program=fibonacci_compiled.json \
@@ -16,5 +16,5 @@ cairo-run \
     --private_input_file=fibonacci_private_input.json \
     --public_input_file=fibonacci_public_input.json \
     --prover_config_file=cpu_air_prover_config.json \
-    --parameter_file=cpu_air_params.json \
+    --parameter_file=cpu_air_params_starknet_with_keccak.json \
     -generate_annotations
