@@ -1,3 +1,4 @@
+%builtins output pedersen range_check ecdsa bitwise ec_op keccak poseidon
 // Copyright 2023 StarkWare Industries Ltd.
 //
 // Licensed under the Apache License, Version 2.0 (the "License").
@@ -12,7 +13,6 @@
 // See the License for the specific language governing permissions
 // and limitations under the License.
 
-%builtins output pedersen range_check ecdsa bitwise ec_op keccak poseidon
 func main(
         output_ptr: felt*, pedersen_ptr: felt*, range_check_ptr: felt*, ecdsa_ptr: felt*, bitwise_ptr: felt*, ec_op_ptr: felt*, keccak_ptr: felt*, poseidon_ptr: felt*
         ) -> (
