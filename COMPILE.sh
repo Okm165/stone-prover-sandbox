@@ -1,4 +1,4 @@
-cairo-compile fibonacci_starknet_with_keccak.cairo --output fibonacci_compiled.json --proof_mode
+cairo-compile fibonacci.cairo --output fibonacci_compiled.json --proof_mode
 
 cairo-run \
     --program=fibonacci_compiled.json \
