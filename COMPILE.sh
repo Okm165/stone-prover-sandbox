@@ -1,3 +1,5 @@
+cd e2e_test
+
 cairo-compile fibonacci.cairo --output fibonacci_compiled.json --proof_mode
 
 cairo-run \
